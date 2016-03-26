@@ -1,7 +1,7 @@
 boss_db_success_app
 =====
 
-An OTP application
+An boss_db OTP application
 
 Build
 -----
