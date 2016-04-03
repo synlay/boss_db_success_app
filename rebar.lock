@@ -4,7 +4,7 @@
   1},
  {<<"boss_db">>,
   {git,"https://github.com/synlay/boss_db.git",
-       {ref,"456df1b613dd6d5efe1465123429f5e9ac0089b0"}},
+       {ref,"bcad499cadb46d24d7545d6fd06c1236dc08c97f"}},
   0},
  {<<"boss_test">>,
   {git,"https://github.com/ChicagoBoss/boss_test.git",
