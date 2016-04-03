@@ -11,12 +11,12 @@ xref:
 	@$(REBAR) xref
 
 test:
-	@$(REBAR) as test eunit eqc
+	@$(REBAR) eunit
 
 clean:
 	@$(REBAR) clean
 
 dialyzer:
-	@$(REBAR) dialyzer
+	@$(REBAR) as test dialyzer
 
-check-all: test xref dialyzer
+check-all: test dialyzer

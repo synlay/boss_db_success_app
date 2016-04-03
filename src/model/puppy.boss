@@ -1,2 +1,7 @@
 -module(puppy, [Id, Name, BreedId]).
 -belongs_to(breed).
+
+-compile([export_all]).
+
+test() ->
+	ok == not_ok.
